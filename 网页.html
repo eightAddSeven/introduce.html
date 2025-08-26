@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="八加七的个人简历 - 网页设计初学者">
+    <title>八加七的个人简历</title>
+    <!-- 网页图标设置 -->
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🐼</text></svg>">
+    <style>
+        /* 基础样式 */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Microsoft YaHei', sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f5f5f5;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        /* 页眉样式 */
+        header {
+            background-color: #4a4a4a;
+            color: white;
+            padding: 1rem;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        
+        header h1 {
+            margin-bottom: 10px;
+        }
+        
+        nav ul {
+            display: flex;
+            justify-content: center;
+            list-style: none;
+        }
+        
+        nav li {
+            margin: 0 15px;
+        }
+        
+        nav a {
+            color: white;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+        
+        nav a:hover {
+            color: #ffd700;
+        }
+        
+        /* 主要内容样式 */
+        main section {
+            background: white;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        
+        h2 {
+            color: #4a4a4a;
+            border-bottom: 2px solid #f0f0f0;
+            padding-bottom: 10px;
+            margin-bottom: 15px;
+        }
+        
+        img {
+            max-width: 150px;
+            height: auto;
+            border-radius: 50%;
+            display: block;
+            margin: 15px auto;
+            border: 3px solid #4a4a4a;
+        }
+        
+        ul {
+            padding-left: 20px;
+        }
+        
+        li {
+            margin-bottom: 8px;
+        }
+        
+        a[href^="mailto"] {
+            color: #1a73e8;
+            text-decoration: none;
+        }
+        
+        a[href^="mailto"]:hover {
+            text-decoration: underline;
+        }
+        
+        /* 页脚样式 */
+        footer {
+            text-align: center;
+            margin-top: 30px;
+            color: #666;
+            font-size: 0.9rem;
+        }
+        
+        /* 响应式设计 */
+        @media (max-width: 600px) {
+            nav ul {
+                flex-direction: column;
+                align-items: center;
+            }
+            
+            nav li {
+                margin: 5px 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- 页眉 -->
+    <header>
+        <h1>八加七的个人主页</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">关于我</a></li>
+                <li><a href="#hobbies">兴趣爱好</a></li>
+                <li><a href="#contact">联系方式</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- 主要内容 -->
+    <main>
+        <section id="about">
+            <h2>关于我</h2>
+            <img src="https://cn.bing.com/images/search?view=detailV2&ccid=kh2%2FokWh&id=A9F4814972EA2867C14516E822C84BB4CA6F66B7&thid=OIP.kh2_okWh74Zd3NcqNgaFMwHaHa&mediaurl=https%3A%2F%2Fn.sinaimg.cn%2Fsinakd20123%2F618%2Fw1109h1109%2F20230409%2F6a99-e26dc71bc3b4d5bb11d933ab36a5ed9a.jpg&exph=1109&expw=1109&q=%E6%87%92%E5%A4%A7%E7%8E%8B%E5%A4%B4%E5%83%8F&simid=608048932302512597&FORM=IRPRST&ck=8194175966BE7BA64C0AE0C7716579CB&selectedIndex=3&itb=0&cw=1529&ch=847&ajaxhist=0&ajaxserp=0" alt="个人头像">
+            <p>06年秃头星人</p>
+            <p>第一个网页设计，屎山代码创造者的早期作品</p>
+        </section>
+
+        <section id="hobbies">
+            <h2>兴趣爱好</h2>
+            <ul>
+                <li>睡觉</li>
+                <li>玩智能手机</li>
+                <li>ctrl+c ctrl+v忠实粉丝</li>
+                <li>爱看点动画片</li>
+            </ul>
+        </section>
+
+        <section id="contact">
+            <h2>联系方式</h2>
+            <p>电子邮箱：<a href="mailto:3536945931@qq.com">3536945931@qq.com</a></p>
+        </section>
+    </main>
+
+    <!-- 页脚 -->
+    <footer>
+        <p>© 2023 八加七的个人网页 - 使用HTML和CSS创建</p>
+    </footer>
+</body>
+</html>
